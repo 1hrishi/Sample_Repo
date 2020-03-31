@@ -1,5 +1,7 @@
 import random
-
+"""
+MODIFYING GUSSING.PY AND PUSH IT ON MASTER REPO
+"""
 # Defining guessing Function
 def guessing():
     n = random.randint(1,10)
