@@ -1,4 +1,6 @@
 import random
+
+# Defining guessing Function
 def guessing():
     n = random.randint(1,10)
     chances = 0
@@ -16,5 +18,7 @@ def guessing():
 
     if not chances < 5:
         print("you lost")
+
+# Run Guessing Function
 if __name__ == "__main__":
     guessing()
